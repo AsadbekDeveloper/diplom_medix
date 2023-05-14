@@ -1,5 +1,4 @@
 // ignore_for_file: depend_on_referenced_packages
-
 import 'package:bloc/bloc.dart';
 import 'package:diplom_medix/helper/constant.dart';
 import 'package:equatable/equatable.dart';

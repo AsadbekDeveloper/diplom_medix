@@ -1,6 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:math';
-
 import 'package:diplom_medix/helper/constant.dart';
 import 'package:diplom_medix/model/patient.dart';
 

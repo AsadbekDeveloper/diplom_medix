@@ -1,10 +1,11 @@
+import 'package:diplom_medix/cubit/main_page_controller.dart';
+import 'package:diplom_medix/features/dashboard/cubit/dashboard_page_controller.dart';
+import 'package:diplom_medix/features/home/home_main.dart';
 import 'package:diplom_medix/helper/constant.dart';
-import 'package:diplom_medix/screens/home/cubit/room_cubit.dart';
-import 'package:diplom_medix/screens/home/cubit/selected_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/room_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/selected_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'home_main.dart';
 import 'home_sidebar.dart';
 
 class HomePage extends StatelessWidget {
@@ -21,6 +22,12 @@ class HomePage extends StatelessWidget {
           ),
           BlocProvider(
             create: (context) => RoomCubit(),
+          ),
+          BlocProvider(
+            create: (context) => MainPageController(),
+          ),
+          BlocProvider(
+            create: (context) => DashboardPageController(),
           ),
         ],
         child: Stack(

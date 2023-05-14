@@ -1,6 +1,6 @@
 import 'package:diplom_medix/model/doctor.dart';
-import 'package:diplom_medix/screens/home/cubit/room_cubit.dart';
-import 'package:diplom_medix/screens/home/cubit/selected_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/room_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/selected_cubit.dart';
 import 'package:diplom_medix/widget/doctor_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

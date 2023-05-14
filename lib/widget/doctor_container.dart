@@ -1,13 +1,9 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-
 import 'package:diplom_medix/helper/constant.dart';
 import 'package:diplom_medix/helper/text.dart';
-import 'package:diplom_medix/screens/home/cubit/selected_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/selected_cubit.dart';
 import 'package:flutter/material.dart';
-
 import 'package:diplom_medix/model/doctor.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../helper/colors.dart';
 
 class DoctorContainer extends StatelessWidget {

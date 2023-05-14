@@ -1,7 +1,6 @@
-import 'package:diplom_medix/screens/home/cubit/selected_cubit.dart';
+import 'package:diplom_medix/features/home/cubit/selected_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'patient_container.dart';
 
 class PatientList extends StatelessWidget {
